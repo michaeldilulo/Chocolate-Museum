@@ -87,4 +87,54 @@ body {
     span#chocolateMuseumLinks a {
         font-size: 17px;
     }
+
+    .chocolate-museum-top-picture {
+        width: 100%;
+    }
+
+    .chocolate-museum-headings {
+        display: none;
+    }
+}
+
+/* Main Content */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    height: 100%;
+}
+
+.chocolate-museum-headings {
+    font-size: 21px;
+    background-color: #DDC5A2;
+    margin-top: 3%;
+    padding-bottom: 129px;
+}
+
+h2:nth-child(1) {
+    padding-top: 50px;
+    margin-left: 300px;
+}
+
+.chocolate-museum-top-picture {
+    padding-top: 58px;
+
+}
+
+img {
+    max-width: 100%;
+    background-color: blue;
+}
+
+.chocolate-museum-main-headings {
+    margin-left: 300px;
+    color: #523634;
+}
+
+.chocolate-museum-span {
+    color: #B6452C;
 }
