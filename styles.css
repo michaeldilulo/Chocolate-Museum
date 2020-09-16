@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: 992px) {
+    .chocolate-museum {
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        background: transparent;
+    }
+    
+    .chocolate-museum a {
+        color: #DDC5A2;
+        font-size: 20px;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .chocolate-museum a.icon {
+        background-color: transparent;
+        right: 0;
+        top: 0;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    .active {
+        background-color: transparent;
+    }
+    
+    .chocolate-museum #chocolateMuseumLinks {
+        display: inline-block;
+    }
+    
+    i.fas.fa-cheese::before {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    
+    span#chocolateMuseumLinks a {
+        font-size: 17px;
+    }
+}
