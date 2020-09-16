@@ -116,18 +116,17 @@ body {
 }
 
 h2:nth-child(1) {
-    padding-top: 50px;
+    padding-top: 44px;
     margin-left: 300px;
 }
 
 .chocolate-museum-top-picture {
-    padding-top: 58px;
+    padding-top: 57px;
 
 }
 
 img {
     max-width: 100%;
-    background-color: blue;
 }
 
 .chocolate-museum-main-headings {
@@ -137,4 +136,12 @@ img {
 
 .chocolate-museum-span {
     color: #B6452C;
+}
+
+.chocolate-museum-row {
+flex-direction: row-reverse;
+}
+
+.column.alternate-headings {
+    margin-top: 0;
 }
