@@ -44,6 +44,69 @@ body {
     span#chocolateMuseumLinks a {
         font-size: 17px;
     }
+    /* Main Content */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    height: 100%;
+}
+
+.chocolate-museum-headings {
+    font-size: 21px;
+    background-color: #DDC5A2;
+    margin-top: 3%;
+    padding-bottom: 129px;
+}
+
+h2:nth-child(1) {
+    padding-top: 44px;
+    margin-left: 300px;
+}
+
+.chocolate-museum-top-picture {
+    padding-top: 57px;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.chocolate-museum-main-headings {
+    margin-left: 300px;
+    color: #523634;
+}
+
+.chocolate-museum-span {
+    color: #B6452C;
+}
+
+.chocolate-museum-row {
+flex-direction: row-reverse;
+}
+
+.column.alternate-headings {
+    margin-top: 0;
+    background-color: #DDC5A2
+}
+
+h1.chocolate-museum-main-headings {
+    padding-top: 200px;
+}
+
+.chocolate-main-icons {
+    font-size: 48px;
+    margin-left: 420px;
+}
+
+p {
+    padding-bottom: 77px;
+    margin-left: 60px;
+}
 }
 
 @media(max-width: 400px) {
@@ -95,53 +158,14 @@ body {
     .chocolate-museum-headings {
         display: none;
     }
-}
 
-/* Main Content */
-
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
-    height: 100%;
-}
-
-.chocolate-museum-headings {
-    font-size: 21px;
+    .column.alternate-headings {
+    font-size: 40px;
     background-color: #DDC5A2;
     margin-top: 3%;
     padding-bottom: 129px;
+    padding-left: 475px;
+    padding-right: 475px;
+    width: 100%;
 }
-
-h2:nth-child(1) {
-    padding-top: 44px;
-    margin-left: 300px;
-}
-
-.chocolate-museum-top-picture {
-    padding-top: 57px;
-
-}
-
-img {
-    max-width: 100%;
-}
-
-.chocolate-museum-main-headings {
-    margin-left: 300px;
-    color: #523634;
-}
-
-.chocolate-museum-span {
-    color: #B6452C;
-}
-
-.chocolate-museum-row {
-flex-direction: row-reverse;
-}
-
-.column.alternate-headings {
-    margin-top: 0;
-}
+    }
